@@ -1,6 +1,6 @@
 {
   "name": "@kne-template/fastify-server",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "用于一个使用fastify构建的node server",
   "main": "index.js",
   "scripts": {

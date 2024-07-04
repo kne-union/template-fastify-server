@@ -1,11 +1,12 @@
 const { fastify, createServer } = require('./server');
 const { promises: fs } = require('fs');
 const path = require('path');
+const packageJson = require('./package.json');
 
 fastify.register(require('@fastify/swagger'), {
     openapi: {
         info: {
-            title: 'ai测评', description: 'ai测评', version: '1.0.0'
+            title: '<%=name%>', description: '<%=description%>', version: packageJson.version
         }, components: {}
     }
 });
