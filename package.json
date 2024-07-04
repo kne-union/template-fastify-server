@@ -1,6 +1,6 @@
 {
   "name": "@kne-template/fastify-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "用于一个使用fastify构建的node server",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,8 @@
     ]
   },
   "files": [
-    "index.js",
-    "libs"
+    "prompts.json",
+    "template"
   ],
   "repository": {
     "type": "git",
