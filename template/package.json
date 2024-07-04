@@ -7,6 +7,7 @@
     "init": "husky",
     "dev": "nodemon ./index.js",
     "start": "node ./index.js",
+    "doc": "node ./open-api.js",
     "build:md": "npx @kne/md-doc",
     "start:md": "npx @kne/md-doc --watch",
     "prettier": "prettier --config .prettierrc --write '{libs/**/*,index}.{js,jsx,ts,tsx,json,css,scss}'",
@@ -38,7 +39,7 @@
   "homepage": "https://github.com/kne-union/<%=name%>#readme",
   "dependencies": {
     "@fastify/env": "^4.3.0",
-    "@kne/fastify-account": "^1.0.0-alpha.6",
+    "@kne/fastify-account": "^1.0.0-alpha.12",
     "@kne/fastify-file-manager": "^1.0.2",
     "@kne/fastify-namespace": "^0.1.1",
     "@kne/fastify-response-data-format": "^0.1.2",
