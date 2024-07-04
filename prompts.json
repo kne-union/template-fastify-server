@@ -1,0 +1,11 @@
+[
+  {
+    "name": "port",
+    "type": "input",
+    "options": {
+      "message": "请输入默认端口号",
+      "default": 8040,
+      "required": true
+    }
+  }
+]
